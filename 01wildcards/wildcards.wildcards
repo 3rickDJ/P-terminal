@@ -1,0 +1,11 @@
+# Wildcards are not ReGex
+ls datos* all <-- characters
+ls datos? <-- just one character
+ls [[:upper:]]* <-- show any file/dir starting with a uppercase depth=2
+ls -d [[:upper:]]* <-- show any dir starting with a uppercase
+ls -d [[:lower:]]* <-- the same but with lowercase
+ls [ad]* <-- shows files/dir which first character is an a or a d, and ends with anything
+### to search by numbers you can use
+[:alnum:] Coincide con cualquier carácter alfanumérico
+[:alpha:] Coincide con cualquier carácter alfabético
+[:digit:] Coincide con cualquier número

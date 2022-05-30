@@ -1,0 +1,10 @@
+ls ~/Downloads/ > file.txt | writes stdout a file.txt overwrites
+ls ~/dosboxc/Assembly/ >> file.txt | concatenate stdout to file.txt
+
+ls lsadjw > error.txt | creates a file but doesnt writes the stderr
+
+ls lsadjw 2> error.txt | creates a file writes the stderr
+
+### Both stdout stderr
+
+ls asfadawdwa > output.txt 2>&1 | redirects to stderr, then stdout

@@ -1,0 +1,5 @@
+"stdin 0" -- command --> "stdout 1"
+"stdin 0" -- command --> "stderr 2"
+standard input
+standard output + for example ls | filedescriptor = 1
+standard error + show error | filedescriptor = 2
